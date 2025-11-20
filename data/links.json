@@ -1,0 +1,11 @@
+{
+  "links": [
+    {
+      "code": "amazon",
+      "target": "https://amazon.com",
+      "created_at": "2025-11-18T17:18:26.010Z",
+      "clicks": 1,
+      "last_clicked": "2025-11-18T17:18:45.413Z"
+    }
+  ]
+}

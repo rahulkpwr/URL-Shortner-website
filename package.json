@@ -1,0 +1,15 @@
+{
+  "name": "simple-url-shortener",
+  "version": "1.0.0",
+  "description": "Small URL shortener (Node + Express) with dashboard and stats",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "helmet": "^6.0.1",
+    "cors": "^2.8.5"
+  }
+}

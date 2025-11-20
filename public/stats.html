@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shortly — Link Stats</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">Shortly</h1>
+      <nav>
+        <a href="/">Dashboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card" id="statsCard">
+      <div id="statsLoading" class="empty">Loading...</div>
+      <div id="statsError" class="empty hidden"></div>
+
+      <div id="statsContent" class="hidden">
+        <h2 id="statsCode"></h2>
+        <p><strong>Target:</strong> <a id="statsTarget" target="_blank"></a></p>
+        <p><strong>Clicks:</strong> <span id="statsClicks"></span></p>
+        <p><strong>Created:</strong> <span id="statsCreated"></span></p>
+        <p><strong>Last clicked:</strong> <span id="statsLast"></span></p>
+        <p><a id="openRedirect" target="_blank">Open redirect (test)</a></p>
+        <div class="form-actions">
+          <button id="deleteBtn" class="danger">Delete link</button>
+          <div id="deleteMsg" class="msg"></div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">Health: <a href="/healthz">/healthz</a></div>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
